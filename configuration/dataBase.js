@@ -1,6 +1,6 @@
 const mongoose  = require("mongoose");
 
-const mongoDB = "mongodb://localhost:27017"; //create url for connection
+const mongoDB = "mongodb://localhost:27017/relationships"; //create url for connection
 
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 

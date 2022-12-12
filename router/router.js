@@ -4,7 +4,7 @@ const product=require('../controller/prod_controller')
 const provider=require('../controller/providerController')
 const { model}=require('mongoose')
 
-router.post('/provider/save',Category.create)
+router.post('/provider/save',provider.create)
 router.post('/category/create', Category.create)
 router.post('/product/create',product.create)
 router.get('/provider/fetch', provider.prov_Find)
